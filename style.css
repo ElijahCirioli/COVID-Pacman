@@ -4,6 +4,9 @@ body {
 	height: 100%;
 	overflow: hidden;
 	position: relative;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 #game-wrap {
 	border: 4px solid #59abe3;
