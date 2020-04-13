@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+		<title>COVID PACMAN</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+		<link rel="manifest" href="./favicon/site.webmanifest" />
+	</head>
+	<body>
+		<div id="game-wrap">
+			<canvas id="mainCanvas" width="448px" height="576px"></canvas>
+			<canvas id="backgroundCanvas" width="448px" height="576px"></canvas>
+		</div>
+		<div id="controls">
+			<canvas id="stickCanvas" width="160px" height="160px"></canvas>
+			<p class="controlText" id="computer-controls">USE ARROW KEYS TO MOVE</p>
+			<p class="controlText" id="phone-controls">USE JOYSTICK TO MOVE</p>
+		</div>
+		<script src="Vec.js"></script>
+		<script src="Player.js"></script>
+		<script src="Ghost.js"></script>
+		<script src="index.js"></script>
+		<footer>
+			<p>
+				By Elijah Cirioli &nbsp; &nbsp; <a href="https://elijahcirioli.com">www.elijahcirioli.com</a> &nbsp; &nbsp;
+				<a href="https://elijahcirioli.com/tetrisnt">Tetrisn't</a>
+			</p>
+		</footer>
+	</body>
+</html>

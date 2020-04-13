@@ -1,0 +1,96 @@
+body {
+	background-color: #1f4788;
+	margin: 0 0 0 0;
+}
+#game-wrap {
+	border: 4px solid #59abe3;
+	position: relative;
+	margin: 30px auto 0 auto;
+	width: 448px;
+	height: 576px;
+	max-width: calc(100vw - 8px);
+	max-height: calc(125.9vw);
+}
+#mainCanvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	max-width: calc(100vw - 8px);
+	max-height: 128.57vw;
+}
+#backgroundCanvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	max-width: calc(100vw - 8px);
+	max-height: 128.57vw;
+}
+footer {
+	background-color: #59abe3;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	color: #0b1347;
+	font-family: "Montserrat", serif;
+	font-weight: bold;
+}
+a {
+	color: #0b1347;
+}
+#controls {
+	width: 448px;
+	height: 160px;
+	position: relative;
+	margin: 0 auto 15px auto;
+	max-width: 100vw;
+	max-height: 35.7vw;
+}
+.controlText {
+	font-family: "Montserrat", serif;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	text-align: center;
+	width: 260px;
+	max-width: 50vw;
+}
+#phone-controls {
+	display: none;
+}
+#computer-controls {
+	display: block;
+}
+#stickCanvas {
+	position: absolute;
+	right: -10px;
+	max-width: 35.7vw;
+	max-height: 35.7vw;
+}
+@media only screen and (max-device-width: 480px) {
+	#phone-controls {
+		display: block;
+	}
+	#computer-controls {
+		display: none;
+	}
+	#stickCanvas {
+		right: 10px;
+	}
+	.controlText {
+		font-size: 24px;
+		left: 15px;
+	}
+	#game-wrap {
+		margin-top: 15px;
+	}
+	footer {
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+	}
+}
