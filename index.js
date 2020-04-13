@@ -25,7 +25,6 @@ let voiceTimer;
 let frightenedTimer;
 
 const setup = () => {
-	alert("test");
 	level = 0;
 	board = STATIC_BOARD.map((x) => x.map((y) => y));
 	menu = true;
