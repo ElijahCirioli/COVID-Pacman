@@ -90,6 +90,9 @@ a {
 	padding-bottom: 45px;
 }
 @media only screen and (max-device-width: 480px) {
+	body {
+		overflow: auto;
+	}
 	#phone-controls {
 		display: block;
 	}
@@ -110,7 +113,7 @@ a {
 		height: 30px;
 		line-height: 30px;
 		font-size: 12px;
-		bottom: -30px;
+		bottom: 0;
 	}
 	#all-wrap {
 		min-height: calc(100vh - 30px);
