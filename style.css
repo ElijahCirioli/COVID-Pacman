@@ -84,7 +84,7 @@ a {
 	right: -10px;
 	max-width: 35.7vw;
 	max-height: 35.7vw;
-	background-color: red;
+	outline: 2px solid red;
 }
 #all-wrap {
 	min-height: calc(100vh - 45px);
