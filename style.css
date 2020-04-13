@@ -40,7 +40,7 @@ body {
 	font-weight: bold;
 	width: 100%;
 	position: absolute;
-	bottom: -45px;
+	bottom: 0;
 }
 #footer > p {
 	margin: 0 0 0 0;
@@ -82,7 +82,7 @@ a {
 	max-height: 35.7vw;
 }
 #all-wrap {
-	height: 100vh;
+	min-height: calc(100vh - 45px);
 	overflow: hidden;
 	display: block;
 	position: relative;
@@ -109,5 +109,10 @@ a {
 		height: 30px;
 		line-height: 30px;
 		font-size: 12px;
+		bottom: -30px;
+	}
+	#all-wrap {
+		min-height: calc(100vh - 30px);
+		padding-bottom: 30px;
 	}
 }
